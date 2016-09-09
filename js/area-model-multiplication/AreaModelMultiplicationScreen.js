@@ -22,14 +22,15 @@ define( function( require ) {
    */
   function AreaModelMultiplicationScreen() {
 
-    //If this is a single-screen sim, then no icon is necessary.
-    //If there are multiple screens, then the icon must be provided here.
-    var icon = null;
+    var options = {
+      name: areaModelMultiplicationTitleString,
+      backgroundColor: 'white'
+    };
 
-    Screen.call( this, areaModelMultiplicationTitleString, icon,
+    Screen.call( this,
       function() { return new AreaModelMultiplicationModel(); },
       function( model ) { return new AreaModelMultiplicationScreenView( model ); },
-      { backgroundColor: 'white' }
+      options
     );
   }
 
