@@ -16,15 +16,17 @@ define( function( require ) {
    * @constructor
    */
   function AreaModelMultiplicationModel() {
-
-    PropertySet.call( this, {
-      //TODO
-    } );
+    //TODO
   }
 
   areaModelMultiplication.register( 'AreaModelMultiplicationModel', AreaModelMultiplicationModel );
 
-  return inherit( PropertySet, AreaModelMultiplicationModel, {
+  return inherit( Object, AreaModelMultiplicationModel, {
+
+    // @public
+    reset: function() {
+      //TODO
+    },
 
     //TODO Called by the animation loop. Optional, so if your model has no animation, please delete this.
     // @public
