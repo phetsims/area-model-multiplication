@@ -13,6 +13,8 @@ define( function( require ) {
   var inherit = require( 'PHET_CORE/inherit' );
   var Screen = require( 'JOIST/Screen' );
   var areaModelMultiplication = require( 'AREA_MODEL_MULTIPLICATION/areaModelMultiplication' );
+  var Property = require( 'AXON/Property' );
+  var Color = require( 'SCENERY/util/Color' );
 
   // strings
   var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
@@ -24,7 +26,7 @@ define( function( require ) {
 
     var options = {
       name: areaModelMultiplicationTitleString,
-      backgroundColor: 'white'
+      backgroundColorProperty: new Property( Color.toColor( 'white' ) )
     };
 
     Screen.call( this,
