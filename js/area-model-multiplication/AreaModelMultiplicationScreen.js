@@ -14,7 +14,6 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
   var areaModelMultiplication = require( 'AREA_MODEL_MULTIPLICATION/areaModelMultiplication' );
   var Property = require( 'AXON/Property' );
-  var Color = require( 'SCENERY/util/Color' );
 
   // strings
   var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
@@ -26,7 +25,7 @@ define( function( require ) {
 
     var options = {
       name: areaModelMultiplicationTitleString,
-      backgroundColorProperty: new Property( Color.toColor( 'white' ) )
+      backgroundColorProperty: new Property( 'white' )
     };
 
     Screen.call( this,
