@@ -30,7 +30,25 @@ define( function( require ) {
     };
 
     Screen.call( this,
-      function() { return new ProportionalAreaModel(); },
+      function() { return new ProportionalAreaModel( [
+        {
+          maximumSize: 20,
+          minimumSize: 1,
+          initialWidth: 1,
+          initialHeight: 1,
+          snapSize: 1,
+          smallTileSize: 1,
+          largeTileSize: 10
+        },
+        {
+          maximumSize: 100,
+          minimumSize: 1,
+          initialWidth: 10,
+          initialHeight: 10,
+          snapSize: 1,
+          tilesAvailable: false
+        }
+      ] ); },
       function( model ) { return new ProportionalAreaScreenView( model ); },
       options
     );
