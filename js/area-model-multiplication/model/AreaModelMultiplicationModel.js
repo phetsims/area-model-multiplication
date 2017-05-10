@@ -10,15 +10,14 @@ define( function( require ) {
   // modules
   var inherit = require( 'PHET_CORE/inherit' );
   var areaModelMultiplication = require( 'AREA_MODEL_MULTIPLICATION/areaModelMultiplication' );
-  var Term = require( 'AREA_MODEL_COMMON/model/Term' );
+  var ProportionalArea = require( 'AREA_MODEL_COMMON/model/ProportionalArea' );
 
   /**
    * @constructor
    */
   function AreaModelMultiplicationModel() {
     //TODO
-    var term = new Term( 5 );
-    console.log( term.power );
+    window.area = new ProportionalArea();
   }
 
   areaModelMultiplication.register( 'AreaModelMultiplicationModel', AreaModelMultiplicationModel );
