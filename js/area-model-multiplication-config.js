@@ -27,6 +27,7 @@ require.config( {
     ifphetio: '../../chipper/js/requirejs-plugins/ifphetio',
 
     // common directories, uppercase names to identify them in require imports
+    AREA_MODEL_COMMON: '../../area-model-common/js',
     AXON: '../../axon/js',
     BRAND: '../../brand/' + phet.chipper.brand + '/js',
     DOT: '../../dot/js',

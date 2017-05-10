@@ -10,6 +10,9 @@
     "grunt": "~1.0.0"
   },
   "phet": {
-    "requirejsNamespace": "AREA_MODEL_MULTIPLICATION"
+    "requirejsNamespace": "AREA_MODEL_MULTIPLICATION",
+    "phetLibs": [
+      "area-model-common"
+    ]
   }
 }
