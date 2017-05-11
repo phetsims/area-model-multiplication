@@ -41,7 +41,7 @@ define( function( require ) {
           majorGridSpacing: 1,
           minorGridSpacing: 0.1,
           smallTileSize: 0.1,
-          largeTileSize: 10
+          largeTileSize: 1
         },
         {
           maximumSize: 2,
@@ -52,7 +52,7 @@ define( function( require ) {
           majorGridSpacing: 1,
           minorGridSpacing: 0.1,
           smallTileSize: 0.1,
-          largeTileSize: 10
+          largeTileSize: 1
         },
         {
           maximumSize: 4,
@@ -63,7 +63,7 @@ define( function( require ) {
           majorGridSpacing: 1,
           minorGridSpacing: 0.2,
           smallTileSize: 0.1,
-          largeTileSize: 10
+          largeTileSize: 1
         }
       ] ); },
       function( model ) { return new ProportionalAreaScreenView( model, 1 ); },
