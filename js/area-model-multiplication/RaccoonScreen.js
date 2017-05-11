@@ -37,6 +37,8 @@ define( function( require ) {
           initialWidth: 1,
           initialHeight: 1,
           snapSize: 1,
+          majorGridSpacing: 10,
+          minorGridSpacing: 1,
           smallTileSize: 1,
           largeTileSize: 10
         },
@@ -46,10 +48,12 @@ define( function( require ) {
           initialWidth: 10,
           initialHeight: 10,
           snapSize: 1,
+          majorGridSpacing: 50,
+          minorGridSpacing: 10,
           tilesAvailable: false
         }
       ] ); },
-      function( model ) { return new ProportionalAreaScreenView( model ); },
+      function( model ) { return new ProportionalAreaScreenView( model, 0 ); },
       options
     );
   }

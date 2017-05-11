@@ -31,7 +31,7 @@ define( function( require ) {
 
     Screen.call( this,
       function() { return new GenericAreaModel( false ); },
-      function( model ) { return new GenericAreaScreenView( model ); },
+      function( model ) { return new GenericAreaScreenView( model, 0 ); },
       options
     );
   }
