@@ -37,6 +37,7 @@ define( function( require ) {
           initialWidth: 1,
           initialHeight: 1,
           snapSize: 1,
+          partitionSnapSize: 1,
           majorGridSpacing: 10,
           minorGridSpacing: 1,
           smallTileSize: 1,
