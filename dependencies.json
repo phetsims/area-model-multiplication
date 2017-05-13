@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0-dev.2 Thu May 11 2017 13:23:04 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.0.0-dev.3 Sat May 13 2017 12:14:22 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
-    "sha": "c2b9c1a40c043da7449d7a0fdcaf837033e70cd6",
+    "sha": "397381bade34c483c2e55e76c219fef5147df11f",
     "branch": "master"
   },
   "area-model-multiplication": {
-    "sha": "cc51952669dbe6ae0a7b41f72f84be215eed94ea",
+    "sha": "ce162a9cfa1c13ce7d9deccdedbceae0566b36b6",
     "branch": "master"
   },
   "assert": {
@@ -13,7 +13,7 @@
     "branch": "master"
   },
   "axon": {
-    "sha": "7b0852e8d6883fd3c2bdf9b295315b6c1cd456c2",
+    "sha": "2a218045fb542b4ded5e847241891baff093182d",
     "branch": "master"
   },
   "brand": {
@@ -29,7 +29,7 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "56713f6559acf68985129d99e878ddb10c5af65f",
+    "sha": "63ef27cea4288527f9f27bea9cc0479f6fc62eb5",
     "branch": "master"
   },
   "kite": {
@@ -49,7 +49,7 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "981a2796b9b77b89546bdc365cc0f2ba99dfc2ab",
+    "sha": "a83739b9a01f15c5cf07396c4a318e27a5a5422f",
     "branch": "master"
   },
   "scenery-phet": {
@@ -65,7 +65,7 @@
     "branch": "master"
   },
   "tandem": {
-    "sha": "744bc32fd84bfb1f22eff82ce030f3354fff9f16",
+    "sha": "294a42debbba0395d0eae356686bf01d67d84aca",
     "branch": "master"
   }
 }
