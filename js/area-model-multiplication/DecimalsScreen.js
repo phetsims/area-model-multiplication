@@ -39,8 +39,7 @@ define( function( require ) {
           initialHeight: 0.1,
           snapSize: 0.1,
           partitionSnapSize: 0.1,
-          majorGridSpacing: 1,
-          minorGridSpacing: 0.1,
+          gridSpacing: 0.1,
           smallTileSize: 0.1,
           largeTileSize: 1
         },
@@ -51,8 +50,7 @@ define( function( require ) {
           initialHeight: 1,
           snapSize: 0.1,
           partitionSnapSize: 0.1,
-          majorGridSpacing: 1,
-          minorGridSpacing: 0.1,
+          gridSpacing: 0.1,
           smallTileSize: 0.1,
           largeTileSize: 1
         },
@@ -63,8 +61,7 @@ define( function( require ) {
           initialHeight: 1,
           snapSize: 0.2,
           partitionSnapSize: 1,
-          majorGridSpacing: 1,
-          minorGridSpacing: 0.2,
+          gridSpacing: 0.2,
           smallTileSize: 0.1,
           largeTileSize: 1
         }
