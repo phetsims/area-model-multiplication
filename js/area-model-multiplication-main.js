@@ -11,6 +11,7 @@ define( function( require ) {
   // modules
   var CrimsonScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/CrimsonScreen' );
   var DecimalsScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/DecimalsScreen' );
+  var GameScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GameScreen' );
   var GrapeScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GrapeScreen' );
   var RaccoonScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/RaccoonScreen' );
   var Sim = require( 'JOIST/Sim' );
@@ -36,7 +37,8 @@ define( function( require ) {
       new RaccoonScreen(),
       new CrimsonScreen(),
       new GrapeScreen(),
-      new DecimalsScreen()
+      new DecimalsScreen(),
+      new GameScreen()
     ], simOptions );
     sim.start();
   } );
