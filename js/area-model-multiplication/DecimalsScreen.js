@@ -55,13 +55,13 @@ define( function( require ) {
           largeTileSize: 1
         },
         {
-          maximumSize: 4,
-          minimumSize: 0.2,
+          maximumSize: 3,
+          minimumSize: 0.1,
           initialWidth: 1,
           initialHeight: 1,
-          snapSize: 0.2,
-          partitionSnapSize: 1,
-          gridSpacing: 0.2,
+          snapSize: 0.1,
+          partitionSnapSize: 0.1,
+          gridSpacing: 0.1,
           smallTileSize: 0.1,
           largeTileSize: 1
         }
