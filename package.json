@@ -12,7 +12,10 @@
   "phet": {
     "requirejsNamespace": "AREA_MODEL_MULTIPLICATION",
     "phetLibs": [
-      "area-model-common"
+      "area-model-common",
+      "twixt",
+      "vegas",
+      "vibe"
     ]
   }
 }
