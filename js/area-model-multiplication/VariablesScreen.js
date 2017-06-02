@@ -17,26 +17,26 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenCrimsonString = require( 'string!AREA_MODEL_COMMON/screen.crimson' );
+  var screenVariablesString = require( 'string!AREA_MODEL_COMMON/screen.variables' );
 
   /**
    * @constructor
    */
-  function CrimsonScreen() {
+  function VariablesScreen() {
 
     var options = {
-      name: screenCrimsonString,
+      name: screenVariablesString,
       backgroundColorProperty: AreaModelColorProfile.backgroundProperty
     };
 
     Screen.call( this,
-      function() { return new GenericAreaModel( false ); },
+      function() { return new GenericAreaModel( true ); },
       function( model ) { return new GenericAreaScreenView( model, 0 ); },
       options
     );
   }
 
-  areaModelMultiplication.register( 'CrimsonScreen', CrimsonScreen );
+  areaModelMultiplication.register( 'VariablesScreen', VariablesScreen );
 
-  return inherit( Screen, CrimsonScreen );
+  return inherit( Screen, VariablesScreen );
 } );

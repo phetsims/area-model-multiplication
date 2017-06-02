@@ -17,26 +17,26 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenGrapeString = require( 'string!AREA_MODEL_COMMON/screen.grape' );
+  var screenGenericString = require( 'string!AREA_MODEL_COMMON/screen.generic' );
 
   /**
    * @constructor
    */
-  function GrapeScreen() {
+  function GenericScreen() {
 
     var options = {
-      name: screenGrapeString,
+      name: screenGenericString,
       backgroundColorProperty: AreaModelColorProfile.backgroundProperty
     };
 
     Screen.call( this,
-      function() { return new GenericAreaModel( true ); },
+      function() { return new GenericAreaModel( false ); },
       function( model ) { return new GenericAreaScreenView( model, 0 ); },
       options
     );
   }
 
-  areaModelMultiplication.register( 'GrapeScreen', GrapeScreen );
+  areaModelMultiplication.register( 'GenericScreen', GenericScreen );
 
-  return inherit( Screen, GrapeScreen );
+  return inherit( Screen, GenericScreen );
 } );

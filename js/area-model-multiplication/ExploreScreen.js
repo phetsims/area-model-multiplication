@@ -17,15 +17,15 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenRaccoonString = require( 'string!AREA_MODEL_COMMON/screen.raccoon' );
+  var screenExploreString = require( 'string!AREA_MODEL_COMMON/screen.explore' );
 
   /**
    * @constructor
    */
-  function RaccoonScreen() {
+  function ExploreScreen() {
 
     var options = {
-      name: screenRaccoonString,
+      name: screenExploreString,
       backgroundColorProperty: AreaModelColorProfile.backgroundProperty
     };
 
@@ -57,7 +57,7 @@ define( function( require ) {
     );
   }
 
-  areaModelMultiplication.register( 'RaccoonScreen', RaccoonScreen );
+  areaModelMultiplication.register( 'ExploreScreen', ExploreScreen );
 
-  return inherit( Screen, RaccoonScreen );
+  return inherit( Screen, ExploreScreen );
 } );

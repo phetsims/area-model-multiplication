@@ -9,13 +9,13 @@ define( function( require ) {
   'use strict';
 
   // modules
-  var CrimsonScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/CrimsonScreen' );
   var DecimalsScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/DecimalsScreen' );
+  var ExploreScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/ExploreScreen' );
   var GameScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GameScreen' );
-  var GrapeScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GrapeScreen' );
-  var RaccoonScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/RaccoonScreen' );
+  var GenericScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GenericScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
+  var VariablesScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/VariablesScreen' );
 
   // strings
   var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
@@ -34,9 +34,9 @@ define( function( require ) {
 
   SimLauncher.launch( function() {
     var sim = new Sim( areaModelMultiplicationTitleString, [
-      new RaccoonScreen(),
-      new CrimsonScreen(),
-      new GrapeScreen(),
+      new ExploreScreen(),
+      new GenericScreen(),
+      new VariablesScreen(),
       new DecimalsScreen(),
       new GameScreen()
     ], simOptions );
