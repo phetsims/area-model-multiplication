@@ -9,10 +9,10 @@ define( function( require ) {
   'use strict';
 
   // modules
-  var AreaModelColorProfile = require( 'AREA_MODEL_COMMON/view/AreaModelColorProfile' );
+  var AreaModelColorProfile = require( 'AREA_MODEL_COMMON/common/view/AreaModelColorProfile' );
   var areaModelMultiplication = require( 'AREA_MODEL_MULTIPLICATION/areaModelMultiplication' );
-  var GameAreaModel = require( 'AREA_MODEL_COMMON/model/GameAreaModel' );
-  var GameAreaScreenView = require( 'AREA_MODEL_COMMON/view/GameAreaScreenView' );
+  var GameAreaModel = require( 'AREA_MODEL_COMMON/game/model/GameAreaModel' );
+  var GameAreaScreenView = require( 'AREA_MODEL_COMMON/game/view/GameAreaScreenView' );
   var inherit = require( 'PHET_CORE/inherit' );
   var Screen = require( 'JOIST/Screen' );
 
