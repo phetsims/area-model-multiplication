@@ -9,6 +9,7 @@ define( function( require ) {
   'use strict';
 
   // modules
+  var ChallengesScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/ChallengesScreen' );
   var DecimalsScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/DecimalsScreen' );
   var ExploreScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/ExploreScreen' );
   var GameScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GameScreen' );
@@ -38,7 +39,8 @@ define( function( require ) {
       new GenericScreen(),
       new VariablesScreen(),
       new DecimalsScreen(),
-      new GameScreen()
+      new GameScreen(),
+      new ChallengesScreen()
     ], simOptions );
     sim.start();
   } );

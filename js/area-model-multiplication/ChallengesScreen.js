@@ -17,26 +17,26 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenGameString = require( 'string!AREA_MODEL_COMMON/screen.game' );
+  var screenChallengesString = require( 'string!AREA_MODEL_COMMON/screen.challenges' );
 
   /**
    * @constructor
    */
-  function GameScreen() {
+  function ChallengesScreen() {
 
     var options = {
-      name: screenGameString,
+      name: screenChallengesString,
       backgroundColorProperty: AreaModelColorProfile.backgroundProperty
     };
 
     Screen.call( this,
-      function() { return new GameAreaModel( false ); },
+      function() { return new GameAreaModel( true ); },
       function( model ) { return new GameAreaScreenView( model ); },
       options
     );
   }
 
-  areaModelMultiplication.register( 'GameScreen', GameScreen );
+  areaModelMultiplication.register( 'ChallengesScreen', ChallengesScreen );
 
-  return inherit( Screen, GameScreen );
+  return inherit( Screen, ChallengesScreen );
 } );
