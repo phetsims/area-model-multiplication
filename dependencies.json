@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0-dev.7 Wed Jun 07 2017 02:59:31 GMT-0600 (MDT)",
+  "comment": "# area-model-multiplication 1.0.0-dev.8 Wed Jun 07 2017 21:09:38 GMT-0600 (MDT)",
   "area-model-common": {
-    "sha": "4558a9cc8d859767c3e31bb0e13282647a981916",
+    "sha": "145b51e9381d13f0ae4117cfa171cdba3dd33792",
     "branch": "master"
   },
   "area-model-multiplication": {
-    "sha": "645e82dd1d11f7d395a80c142818ce58a0e8c775",
+    "sha": "15153365a3f5936628cd121d2b89bb96f3191c3f",
     "branch": "master"
   },
   "assert": {
@@ -29,7 +29,7 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "6a6baae6cce1c2b9cb8b5fcaf1b97b2a7c806b2b",
+    "sha": "08180228948b7e019ca982563397c8c4c4c7c20a",
     "branch": "master"
   },
   "kite": {
@@ -49,11 +49,11 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "63fd93762497494860cbb1d85a2813847b426cc0",
+    "sha": "637bbedcd59d2737c2eab8946eb0c8eba6ef1623",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "686d0d7c058d02ceb503fc3cad4181b422e5a9c5",
+    "sha": "b70bd9309678de0abdba61900deb5180f07654e3",
     "branch": "master"
   },
   "sherpa": {
@@ -61,7 +61,7 @@
     "branch": "master"
   },
   "sun": {
-    "sha": "5aafa7dcd9e8ee85c027a32c9dedb152b2d2896b",
+    "sha": "9e3d791e25b2f1fbfb84da8156d5dc1032726e12",
     "branch": "master"
   },
   "tandem": {
@@ -73,7 +73,7 @@
     "branch": "master"
   },
   "vegas": {
-    "sha": "4d42e0497ab6690a61e9859ff5675a09295b5050",
+    "sha": "45acc1de1aecac3dcd6a1320b56dea040e46a600",
     "branch": "master"
   },
   "vibe": {
