@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0-dev.9 Wed Jun 14 2017 00:37:43 GMT-0600 (MDT)",
+  "comment": "# area-model-multiplication 1.0.0-dev.10 Thu Jun 15 2017 09:59:00 GMT-0600 (MDT)",
   "area-model-common": {
-    "sha": "eca28f54adc6f92f6fb17807d4b7ec3d2bb5e4b5",
+    "sha": "14cbe476001a175876bfba8832fbe28572c845af",
     "branch": "master"
   },
   "area-model-multiplication": {
-    "sha": "a80b1a6304a8e9f81cbf03ed956d03fffe98dfbc",
+    "sha": "d05e633707a235711c06fbe318de190001576a7a",
     "branch": "master"
   },
   "assert": {
@@ -13,7 +13,7 @@
     "branch": "master"
   },
   "axon": {
-    "sha": "045bd1b0b51cbad35ba5fb80b2eb78908194094c",
+    "sha": "b8ccb7992abe0551d12ea092bfac4afb8b984c65",
     "branch": "master"
   },
   "brand": {
@@ -21,7 +21,7 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "80ae1f148ad0339588633f85033d1d6a4bb4000d",
+    "sha": "1a47d06d3ef024908fdb4b4b4b255af7ec494a82",
     "branch": "master"
   },
   "dot": {
@@ -53,15 +53,15 @@
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "830fd50295ae14c94771f4eaf2b817ebda6550e8",
+    "sha": "3f38bba9e53e193de9580d52b3a2ebfb55bb64e3",
     "branch": "master"
   },
   "sherpa": {
-    "sha": "812fdf9e8222a204c371347f2a0615ef02d0f72e",
+    "sha": "0207b055f9cbf2666bcc3bb6ff3cbf76c2d7bb7a",
     "branch": "master"
   },
   "sun": {
-    "sha": "32cc2197793d74595f5ed9f146c3bd170e20c204",
+    "sha": "98e5a49eb4d7bab240ad7becaeb88d362eb53c81",
     "branch": "master"
   },
   "tandem": {
