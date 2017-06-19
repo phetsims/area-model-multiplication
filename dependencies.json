@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0-dev.11 Thu Jun 15 2017 10:26:50 GMT-0600 (MDT)",
+  "comment": "# area-model-multiplication 1.0.0-dev.12 Mon Jun 19 2017 15:43:29 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
-    "sha": "7fdf0e46cbf278845c898ec422f9fe113387a629",
+    "sha": "0423452a4ed0feef93cfde19d4578c2e74aefb45",
     "branch": "master"
   },
   "area-model-multiplication": {
-    "sha": "00294f49f4c3dcd84295cbacdd8358378c909ac1",
+    "sha": "cdc0c01d7b01a757de0d9ae81d222f49b3cad61a",
     "branch": "master"
   },
   "assert": {
@@ -13,27 +13,27 @@
     "branch": "master"
   },
   "axon": {
-    "sha": "b8ccb7992abe0551d12ea092bfac4afb8b984c65",
+    "sha": "12510072f4c4746ee195d1b275668d175f6c725b",
     "branch": "master"
   },
   "brand": {
-    "sha": "c904b097800ac66bee43a37b4d36169a85990b34",
+    "sha": "b630f897deb7a4ff95029176dbf5b48a9713d31d",
     "branch": "master"
   },
   "chipper": {
-    "sha": "1a47d06d3ef024908fdb4b4b4b255af7ec494a82",
+    "sha": "969e00b56ff1c0a0f5154f49909fc150363536e2",
     "branch": "master"
   },
   "dot": {
-    "sha": "6b4ec39c10d667cd64543e59184f0a2fff4fad6e",
+    "sha": "3d9d2f3d627d3036c695200a4f48d00c077c5338",
     "branch": "master"
   },
   "joist": {
-    "sha": "b35547e9747cd53d5b3f702ac3caa95a907961d3",
+    "sha": "688fb03d9a975f3f5a06b712d0f1228d7dd4e618",
     "branch": "master"
   },
   "kite": {
-    "sha": "7d2df183bd47abec3c3f7da477eb9172556f04e8",
+    "sha": "c9b529a2d0df2faa24e97bcfb70653b867969b49",
     "branch": "master"
   },
   "phet-core": {
@@ -41,7 +41,7 @@
     "branch": "master"
   },
   "phetcommon": {
-    "sha": "ca2f62cd80bb47b43e7b0d825c637e39161b9ebd",
+    "sha": "7ec5d29971d7faf69f31e028c45b17df040b721b",
     "branch": "master"
   },
   "query-string-machine": {
@@ -49,11 +49,11 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "c2248424f0a27f1ae13694addc2622a3686c077e",
+    "sha": "748a0462b0e21d00f48be047b35d0bfb45be6bce",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "3f38bba9e53e193de9580d52b3a2ebfb55bb64e3",
+    "sha": "db4bf9615e8a267169626cbc323827853b2b29de",
     "branch": "master"
   },
   "sherpa": {
@@ -61,11 +61,11 @@
     "branch": "master"
   },
   "sun": {
-    "sha": "98e5a49eb4d7bab240ad7becaeb88d362eb53c81",
+    "sha": "fce3a552153a7af578b3baaed9946b607909ca67",
     "branch": "master"
   },
   "tandem": {
-    "sha": "7b8b818841b0621e5d2fd23bc648ad01aa033caa",
+    "sha": "f3949f64f8aede98fc1276e66f4192bdae3f668e",
     "branch": "master"
   },
   "twixt": {
