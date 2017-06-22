@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0-dev.13 Tue Jun 20 2017 19:17:35 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.0.0-dev.14 Thu Jun 22 2017 09:23:35 GMT-0600 (MDT)",
   "area-model-common": {
-    "sha": "fb8882ba183bb269d9bba323df40add72428ef8b",
+    "sha": "ea222363158baa6e935f6b22890cad091402255d",
     "branch": "master"
   },
   "area-model-multiplication": {
-    "sha": "a9e712d3655418d9c41454364bad2e8f398a9833",
+    "sha": "7d1c42df5bd38e3a894387ecdd36f126b064e7ef",
     "branch": "master"
   },
   "assert": {
@@ -49,11 +49,11 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "533f9f39613f0f6ed5a0eff7fdc9e7eb58ce86ef",
+    "sha": "494ce43dcce4aa3ff84dffdd334fd42d6202d224",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "370222160b41d18c4496f63cd9d10c98fc7c2a4d",
+    "sha": "727d5bd7ac8d93a1c6e8b78b27c9fb6a8a4e783d",
     "branch": "master"
   },
   "sherpa": {
@@ -61,7 +61,7 @@
     "branch": "master"
   },
   "sun": {
-    "sha": "45974fad5cbbeb8e987bf47d5daeee7930f0f3b9",
+    "sha": "794481f1aba97591f9a68b015ed0ed56128a0bce",
     "branch": "master"
   },
   "tandem": {
