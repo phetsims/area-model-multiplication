@@ -34,8 +34,9 @@ define( function( require ) {
         {
           maximumSize: 20,
           minimumSize: 1,
-          initialWidth: 1,
-          initialHeight: 1,
+          initialWidth: 10,
+          initialHeight: 10,
+          initialVerticalSplit: 5,
           snapSize: 1,
           partitionSnapSize: 1,
           gridSpacing: 1,
@@ -45,8 +46,9 @@ define( function( require ) {
         {
           maximumSize: 100,
           minimumSize: 1,
-          initialWidth: 10,
-          initialHeight: 10,
+          initialWidth: 50,
+          initialHeight: 50,
+          initialVerticalSplit: 30,
           snapSize: 1,
           gridSpacing: 10,
           tilesAvailable: false
