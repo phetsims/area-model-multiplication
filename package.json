@@ -16,6 +16,11 @@
       "twixt",
       "vegas",
       "vibe"
-    ]
+    ],
+    "runnable": true,
+    "supportedBrands": [
+      "phet"
+    ],
+    "simulation": true
   }
 }
