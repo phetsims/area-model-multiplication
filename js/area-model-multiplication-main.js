@@ -9,14 +9,14 @@ define( function( require ) {
   'use strict';
 
   // modules
-  var ChallengesScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/ChallengesScreen' );
-  var DecimalsScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/DecimalsScreen' );
-  var ExploreScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/ExploreScreen' );
-  var GameScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GameScreen' );
-  var GenericScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/GenericScreen' );
+  var ExploreScreen = require( 'AREA_MODEL_COMMON/screens/ExploreScreen' );
+  var GenericGameScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameScreen' );
+  var GenericScreen = require( 'AREA_MODEL_COMMON/screens/GenericScreen' );
+  var ScaledGameChallengesScreen = require( 'AREA_MODEL_COMMON/screens/ScaledGameChallengesScreen' );
+  var ScaledGameScreen = require( 'AREA_MODEL_COMMON/screens/ScaledGameScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
-  var VariablesScreen = require( 'AREA_MODEL_MULTIPLICATION/area-model-multiplication/VariablesScreen' );
+  var GenericGameChallengesScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameChallengesScreen' );
 
   // strings
   var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
@@ -36,11 +36,11 @@ define( function( require ) {
   SimLauncher.launch( function() {
     var sim = new Sim( areaModelMultiplicationTitleString, [
       new ExploreScreen(),
+      new ScaledGameScreen(),
       new GenericScreen(),
-      new VariablesScreen(),
-      new DecimalsScreen(),
-      new GameScreen(),
-      new ChallengesScreen()
+      new GenericGameScreen(),
+      new ScaledGameChallengesScreen(),
+      new GenericGameChallengesScreen()
     ], simOptions );
     sim.start();
   } );
