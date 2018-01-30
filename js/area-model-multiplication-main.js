@@ -14,7 +14,6 @@ define( function( require ) {
   var GenericScreen = require( 'AREA_MODEL_COMMON/screens/GenericScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
-  var GenericGameChallengesScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameChallengesScreen' );
 
   // strings
   var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
@@ -35,8 +34,7 @@ define( function( require ) {
     var sim = new Sim( areaModelMultiplicationTitleString, [
       new ExploreScreen(),
       new GenericScreen(),
-      new GenericGameScreen(),
-      new GenericGameChallengesScreen()
+      new GenericGameScreen()
     ], simOptions );
     sim.start();
   } );
