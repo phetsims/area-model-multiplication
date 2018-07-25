@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.0 Tue Jul 24 2018 16:35:47 GMT-0600 (MDT)",
+  "comment": "# area-model-multiplication 1.0.1-rc.1 Tue Jul 24 2018 20:45:11 GMT-0600 (MDT)",
   "area-model-common": {
     "sha": "b232323eabe5047fdf0c4c2d51a12b7231682e8b",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "5dc73d1b7e6fb0e1c0c9562cb34827e961cd21c8",
+    "sha": "4efeeb250eded1e39b028ff18ae9de8380a7a430",
     "branch": "1.0"
   },
   "assert": {
@@ -94,6 +94,6 @@
   },
   "vibe": {
     "sha": "3f0b440ac6143f67a51101d563dfe127be4dd021",
-    "branch": "area-model-multiplication-1.0"
+    "branch": "HEAD"
   }
 }
