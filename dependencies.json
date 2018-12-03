@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.1.0-rc.1 Mon Dec 03 2018 12:19:59 GMT-0700 (Mountain Standard Time)",
+  "comment": "# area-model-multiplication 1.1.0-rc.2 Mon Dec 03 2018 12:26:56 GMT-0700 (Mountain Standard Time)",
   "area-model-common": {
     "sha": "72f057d1138ea2c3c947dac4d3fa8dc4c8e5a131",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "43511fa58bd15ed5631fb2585b06240fbc8be9e2",
+    "sha": "aeec4a9def161b8ce168c643a949c17daed55081",
     "branch": "1.1"
   },
   "assert": {
@@ -90,7 +90,7 @@
   },
   "tandem": {
     "sha": "7134621c192a374fefd42356268a635235d28f45",
-    "branch": "area-model-multiplication-1.1"
+    "branch": "HEAD"
   },
   "twixt": {
     "sha": "3ef1cdc0750f90657ee3971d115a377a293ee852",
