@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.5 Wed Apr 24 2019 14:14:17 GMT-0800 (Alaskan Daylight Time)",
+  "comment": "# area-model-multiplication 1.0.5 Fri May 24 2019 14:20:43 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
     "sha": "b232323eabe5047fdf0c4c2d51a12b7231682e8b",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "1812e65ab554ae6862280b571e8e3ebafd7cb34b",
+    "sha": "53aacf4a22788715255958979385c69498c8f320",
     "branch": "1.0"
   },
   "assert": {
@@ -21,8 +21,8 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "dfecb9fa53d83787846373a95c14f98fd7695272",
-    "branch": "HEAD"
+    "sha": "6a5537309a6ad850c6ab449a99d1f9de6683aff8",
+    "branch": "area-model-multiplication-1.0"
   },
   "dot": {
     "sha": "62f0aa425038a03977362beea8e2310d91feca68",
@@ -42,14 +42,6 @@
   },
   "phet-io": {
     "sha": "3a9c8ba87a85d5605c63c406454a45322eb145fb",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-classroom-activity": {
-    "sha": "dfc83c89d557b99348b7f3fffb9f90d7fb2f75ef",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-lab-book": {
-    "sha": "020f3ed69231c5673fea0cc4d2fa5cbf7a1eddcd",
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
