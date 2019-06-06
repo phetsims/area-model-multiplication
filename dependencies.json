@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.2.0-rc.1 Wed Jun 05 2019 13:56:59 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.2.0-rc.1 Thu Jun 06 2019 10:23:35 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
-    "sha": "db716ce2350f331c07c6131107631d773f213b5f",
+    "sha": "c8d9b3c234efa01863d2f2e9c047de8edaa17c19",
     "branch": "area-model-multiplication-1.2"
   },
   "area-model-multiplication": {
-    "sha": "66968043359a3412a549615897686715eac717ea",
+    "sha": "94265f29aaa086f57742e0fee6c4b59ad7e731d4",
     "branch": "1.2"
   },
   "assert": {
@@ -89,11 +89,7 @@
     "branch": "HEAD"
   },
   "vegas": {
-    "sha": "6eddf8ab8d231a53924f492267bbd875b3c4b471",
-    "branch": "HEAD"
-  },
-  "vibe": {
-    "sha": "9ddda3b391ea73c6b7c696f1a4e34035d87f7bbc",
-    "branch": "HEAD"
+    "sha": "75a7d1f2ee09dc3f943ebf47b89aa46240e0e601",
+    "branch": "area-model-multiplication-1.2"
   }
 }
