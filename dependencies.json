@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.2.0-rc.2 Thu Jun 06 2019 10:30:20 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.2.0-rc.2 Thu Jun 13 2019 10:20:32 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
-    "sha": "c8d9b3c234efa01863d2f2e9c047de8edaa17c19",
-    "branch": "HEAD"
+    "sha": "a9832d10ee9bfbdf454f9fe691f0d1b996fa313c",
+    "branch": "area-model-multiplication-1.2"
   },
   "area-model-multiplication": {
-    "sha": "512a1f9d6f4f3f6dd63d5585d08c4e37c52fe427",
+    "sha": "7f50eb5dbe5bdff79dd506efd6a3b39bf25266a9",
     "branch": "1.2"
   },
   "assert": {
