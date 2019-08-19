@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.2.0-rc.3 Fri Jul 26 2019 12:46:12 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.2.0-rc.3 Mon Aug 19 2019 12:31:03 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
     "sha": "e4c77745fcdeaa7981755234bde23f92814b4c83",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "bca1c40b5760142d3415f80b8b98b619abf530fe",
+    "sha": "4814e5015c256442c6c42fecefe5582bb41987a6",
     "branch": "1.2"
   },
   "assert": {
@@ -29,8 +29,8 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "450d68d35d3da43d1530d76fc6dc038d135d3dde",
-    "branch": "HEAD"
+    "sha": "e3ac491f647decd8a6839ddf9131524893976ecf",
+    "branch": "area-model-multiplication-1.2"
   },
   "kite": {
     "sha": "eced67f365a308d08dc5277a27765726f5fe79eb",
@@ -50,7 +50,7 @@
   },
   "phetcommon": {
     "sha": "5caab3c237c6ac18f51b00e05031e41d28adcb20",
-    "branch": "area-model-multiplication-1.2"
+    "branch": "HEAD"
   },
   "phetmarks": {
     "sha": "01cbbd71ad4ca7d29bf68de518e0d3215acf3528",
@@ -61,12 +61,12 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "8ce157dcb57fd2122e2e335a6cf6bde1168435ef",
-    "branch": "HEAD"
+    "sha": "280c762bdeb09fd935a012c242bc81dcd0c03247",
+    "branch": "area-model-multiplication-1.2"
   },
   "scenery-phet": {
-    "sha": "835393c43779b61a68da46bc742a4b2f8259c706",
-    "branch": "HEAD"
+    "sha": "4b1bbd0f08da96c1c2e3fd26a0035e88eaaab1d4",
+    "branch": "area-model-multiplication-1.2"
   },
   "sherpa": {
     "sha": "16758e7eb83b686d49afc912e4056b68f05376a1",
