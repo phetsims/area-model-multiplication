@@ -18,7 +18,7 @@ define( require => {
   // strings
   const areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
 
-  var simOptions = {
+  const simOptions = {
     credits: {
       leadDesign: 'Amy Hanson, Amanda McGarry',
       softwareDevelopment: 'Jonathan Olson',
@@ -30,7 +30,7 @@ define( require => {
   };
 
   SimLauncher.launch( function() {
-    var sim = new Sim( areaModelMultiplicationTitleString, [
+    const sim = new Sim( areaModelMultiplicationTitleString, [
       new ExploreScreen(),
       new GenericScreen(),
       new GenericGameScreen()
