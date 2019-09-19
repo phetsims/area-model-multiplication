@@ -5,18 +5,18 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var ExploreScreen = require( 'AREA_MODEL_COMMON/screens/ExploreScreen' );
-  var GenericGameScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameScreen' );
-  var GenericScreen = require( 'AREA_MODEL_COMMON/screens/GenericScreen' );
-  var Sim = require( 'JOIST/Sim' );
-  var SimLauncher = require( 'JOIST/SimLauncher' );
+  const ExploreScreen = require( 'AREA_MODEL_COMMON/screens/ExploreScreen' );
+  const GenericGameScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameScreen' );
+  const GenericScreen = require( 'AREA_MODEL_COMMON/screens/GenericScreen' );
+  const Sim = require( 'JOIST/Sim' );
+  const SimLauncher = require( 'JOIST/SimLauncher' );
 
   // strings
-  var areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
+  const areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
 
   var simOptions = {
     credits: {
