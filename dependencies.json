@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.0.10 Thu Sep 19 2019 00:32:49 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.0.10 Mon Sep 23 2019 14:24:33 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
     "sha": "b232323eabe5047fdf0c4c2d51a12b7231682e8b",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "3781a34be95991b039206963be03adeafb96639f",
+    "sha": "c89a0164350daf899b3634181aabcc01686ffbb0",
     "branch": "1.0"
   },
   "assert": {
@@ -61,8 +61,8 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "944c286e9fb9c5eb6f94e650b81faba8faac4d0a",
-    "branch": "HEAD"
+    "sha": "78a0805b6d1fd3f934684811e1de604c6b40d090",
+    "branch": "area-model-multiplication-1.0"
   },
   "scenery-phet": {
     "sha": "e302a20fc15a92e2575d7b1a1eaf85e7826d1db9",
