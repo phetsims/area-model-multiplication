@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.2.0-rc.4 Tue Oct 15 2019 12:22:22 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.2.0-rc.4 Fri Oct 18 2019 15:47:25 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
     "sha": "e4c77745fcdeaa7981755234bde23f92814b4c83",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "2c784af7b4feab9f6356763014624eb57c3919df",
+    "sha": "54e140c9fcb0a263786b167c11f30cad4d08787f",
     "branch": "1.2"
   },
   "assert": {
@@ -38,7 +38,7 @@
   },
   "phet-core": {
     "sha": "2023ce59ae0fd2d45e9d2317b83bf0026ae655d7",
-    "branch": "area-model-multiplication-1.2"
+    "branch": "HEAD"
   },
   "phet-io": {
     "sha": "781c86ab3d4cf355869891a07049a002b16e946e",
@@ -77,8 +77,8 @@
     "branch": "HEAD"
   },
   "tambo": {
-    "sha": "4ee7a5f1ace53a5caf43ef2a0a548c779a847fb6",
-    "branch": "HEAD"
+    "sha": "f2c09f460bdd2d488185b854fb02a133d9f81a27",
+    "branch": "area-model-multiplication-1.2"
   },
   "tandem": {
     "sha": "548feba743e8b59a278edea4c99fa4966e403463",
