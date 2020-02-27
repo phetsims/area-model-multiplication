@@ -5,35 +5,31 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const ExploreScreen = require( 'AREA_MODEL_COMMON/screens/ExploreScreen' );
-  const GenericGameScreen = require( 'AREA_MODEL_COMMON/screens/GenericGameScreen' );
-  const GenericScreen = require( 'AREA_MODEL_COMMON/screens/GenericScreen' );
-  const Sim = require( 'JOIST/Sim' );
-  const SimLauncher = require( 'JOIST/SimLauncher' );
+import ExploreScreen from '../../area-model-common/js/screens/ExploreScreen.js';
+import GenericGameScreen from '../../area-model-common/js/screens/GenericGameScreen.js';
+import GenericScreen from '../../area-model-common/js/screens/GenericScreen.js';
+import Sim from '../../joist/js/Sim.js';
+import SimLauncher from '../../joist/js/SimLauncher.js';
+import areaModelMultiplicationStrings from './area-model-multiplication-strings.js';
 
-  // strings
-  const areaModelMultiplicationTitleString = require( 'string!AREA_MODEL_MULTIPLICATION/area-model-multiplication.title' );
+const areaModelMultiplicationTitleString = areaModelMultiplicationStrings[ 'area-model-multiplication' ].title;
 
-  const simOptions = {
-    credits: {
-      leadDesign: 'Amy Hanson, Amanda McGarry',
-      softwareDevelopment: 'Jonathan Olson',
-      team: 'Karina Hensberry, Susan Miller, Ariel Paul, Kathy Perkins, Oliver Nix',
-      qualityAssurance: 'Steele Dalton, Bryce Griebenow, Ethan Johnson, Liam Mulhall, Ben Roberts, Jacob Romero, Ethan Ward, Clara Wilson, Kathryn Woessner',
-      graphicArts: 'Mariah Hermsmeyer, Amanda McGarry, Diana L\u00f3pez Tavares'
-    }
-  };
+const simOptions = {
+  credits: {
+    leadDesign: 'Amy Hanson, Amanda McGarry',
+    softwareDevelopment: 'Jonathan Olson',
+    team: 'Karina Hensberry, Susan Miller, Ariel Paul, Kathy Perkins, Oliver Nix',
+    qualityAssurance: 'Steele Dalton, Bryce Griebenow, Ethan Johnson, Liam Mulhall, Ben Roberts, Jacob Romero, Ethan Ward, Clara Wilson, Kathryn Woessner',
+    graphicArts: 'Mariah Hermsmeyer, Amanda McGarry, Diana L\u00f3pez Tavares'
+  }
+};
 
-  SimLauncher.launch( function() {
-    const sim = new Sim( areaModelMultiplicationTitleString, [
-      new ExploreScreen(),
-      new GenericScreen(),
-      new GenericGameScreen()
-    ], simOptions );
-    sim.start();
-  } );
+SimLauncher.launch( function() {
+  const sim = new Sim( areaModelMultiplicationTitleString, [
+    new ExploreScreen(),
+    new GenericScreen(),
+    new GenericGameScreen()
+  ], simOptions );
+  sim.start();
 } );
