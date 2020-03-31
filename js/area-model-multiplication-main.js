@@ -11,7 +11,7 @@ import GenericGameScreen from '../../area-model-common/js/screens/GenericGameScr
 import GenericScreen from '../../area-model-common/js/screens/GenericScreen.js';
 import Sim from '../../joist/js/Sim.js';
 import SimLauncher from '../../joist/js/SimLauncher.js';
-import areaModelMultiplicationStrings from './area-model-multiplication-strings.js';
+import areaModelMultiplicationStrings from './areaModelMultiplicationStrings.js';
 
 const areaModelMultiplicationTitleString = areaModelMultiplicationStrings[ 'area-model-multiplication' ].title;
 
