@@ -10,7 +10,7 @@ import ExploreScreen from '../../area-model-common/js/screens/ExploreScreen.js';
 import GenericGameScreen from '../../area-model-common/js/screens/GenericGameScreen.js';
 import GenericScreen from '../../area-model-common/js/screens/GenericScreen.js';
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import areaModelMultiplicationStrings from './areaModelMultiplicationStrings.js';
 
 const areaModelMultiplicationTitleString = areaModelMultiplicationStrings[ 'area-model-multiplication' ].title;
@@ -25,7 +25,7 @@ const simOptions = {
   }
 };
 
-SimLauncher.launch( function() {
+simLauncher.launch( function() {
   const sim = new Sim( areaModelMultiplicationTitleString, [
     new ExploreScreen(),
     new GenericScreen(),
