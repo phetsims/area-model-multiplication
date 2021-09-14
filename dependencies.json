@@ -1,11 +1,11 @@
 {
-  "comment": "# area-model-multiplication 1.2.2 Thu Jun 17 2021 10:20:21 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# area-model-multiplication 1.2.3-rc.1 Tue Sep 14 2021 12:53:18 GMT-0600 (Mountain Daylight Time)",
   "area-model-common": {
     "sha": "0afff825d1785b7aeb8a6a5fddcef688d4c2f5bf",
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "20c3fb7c29f8856b4ed39518e681f2c4737c0d9d",
+    "sha": "22b7a808db121cbedbee19577cfddd44044db14e",
     "branch": "1.2"
   },
   "assert": {
