@@ -11,7 +11,7 @@ import areaModelMultiplication from './areaModelMultiplication.js';
 type StringsType = {
   'area-model-multiplication': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   }
 };
 
