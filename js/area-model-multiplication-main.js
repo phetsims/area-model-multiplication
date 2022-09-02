@@ -13,7 +13,7 @@ import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import areaModelMultiplicationStrings from './areaModelMultiplicationStrings.js';
 
-const areaModelMultiplicationTitleString = areaModelMultiplicationStrings[ 'area-model-multiplication' ].title;
+const areaModelMultiplicationTitleStringProperty = areaModelMultiplicationStrings[ 'area-model-multiplication' ].titleStringProperty;
 
 const simOptions = {
   credits: {
@@ -26,7 +26,7 @@ const simOptions = {
 };
 
 simLauncher.launch( () => {
-  const sim = new Sim( areaModelMultiplicationTitleString, [
+  const sim = new Sim( areaModelMultiplicationTitleStringProperty, [
     new ExploreScreen(),
     new GenericScreen(),
     new GenericGameScreen()
