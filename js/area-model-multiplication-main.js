@@ -6,16 +6,25 @@
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
 
+import JugglerImages from '../../area-model-common/js/game/view/JugglerImages.js';
 import ExploreScreen from '../../area-model-common/js/screens/ExploreScreen.js';
 import GenericGameScreen from '../../area-model-common/js/screens/GenericGameScreen.js';
 import GenericScreen from '../../area-model-common/js/screens/GenericScreen.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import AreaModelMultiplicationStrings from './AreaModelMultiplicationStrings.js';
 
 const areaModelMultiplicationTitleStringProperty = AreaModelMultiplicationStrings[ 'area-model-multiplication' ].titleStringProperty;
 
+const preferencesModel = new PreferencesModel( {
+  localizationOptions: {
+    characterSets: JugglerImages.JUGGLER_CHARACTER_SETS
+  }
+} );
+
 const simOptions = {
+  preferencesModel: preferencesModel,
   credits: {
     leadDesign: 'Amy Hanson, Amanda McGarry',
     softwareDevelopment: 'Jonathan Olson',
@@ -29,7 +38,7 @@ simLauncher.launch( () => {
   const sim = new Sim( areaModelMultiplicationTitleStringProperty, [
     new ExploreScreen(),
     new GenericScreen(),
-    new GenericGameScreen()
+    new GenericGameScreen( preferencesModel )
   ], simOptions );
   sim.start();
 } );
