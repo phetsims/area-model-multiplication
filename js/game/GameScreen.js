@@ -8,7 +8,7 @@
 
 import GenericGameScreen from '../../../area-model-common/js/screens/GenericGameScreen.js';
 import areaModelMultiplication from '../areaModelMultiplication.js';
-import JugglerController from './view/JugglerController.js';
+import JugglerCharacters from './view/JugglerCharacters.js';
 import JugglerImages from './view/JugglerImages.js';
 
 class GameScreen extends GenericGameScreen {
@@ -19,8 +19,8 @@ class GameScreen extends GenericGameScreen {
    */
   constructor( preferencesModel ) {
 
-    super( preferencesModel, JugglerImages.JUGGLER_CHARACTER_SETS,
-        gameAreaModel => new JugglerController( gameAreaModel ) );
+    super( preferencesModel, JugglerImages.JUGGLER_PORTRAYALS,
+        gameAreaModel => new JugglerCharacters( gameAreaModel ) );
   }
 }
 

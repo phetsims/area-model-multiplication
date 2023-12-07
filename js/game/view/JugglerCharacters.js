@@ -1,7 +1,7 @@
 // Copyright 2023, University of Colorado Boulder
 
 /**
- * The JugglerController creates the images  of each version of the 'level' juggler ( level 1, level 2, level 3, level 4,
+ * The JugglerCharacters creates the images  of each version of the 'level' juggler ( level 1, level 2, level 3, level 4,
  * level 5, and level 6 ), as well as defines the visibility of each individual image based on the
  * regionAndCulturePortrayalProperty.
  *
@@ -14,14 +14,14 @@ import { Image, Node } from '../../../../scenery/js/imports.js';
 import areaModelMultiplication from '../../areaModelMultiplication.js';
 import JugglerImages from './JugglerImages.js';
 
-export default class JugglerController {
+export default class JugglerCharacters {
   /**
    *
    * @param { GameAreaModel } sceneModel
    */
   constructor( sceneModel ) {
 
-    const jugglerSets = JugglerImages.JUGGLER_CHARACTER_SETS;
+    const jugglerSets = JugglerImages.JUGGLER_PORTRAYALS;
     const regionAndCulturePortrayalProperty = sceneModel.regionAndCulturePortrayalProperty;
 
     const createVisibleProperty = set => {
@@ -70,4 +70,4 @@ export default class JugglerController {
   }
 }
 
-areaModelMultiplication.register( 'JugglerController', JugglerController );
+areaModelMultiplication.register( 'JugglerCharacters', JugglerCharacters );
