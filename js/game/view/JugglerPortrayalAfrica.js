@@ -9,7 +9,7 @@
 
 import JoistStrings from '../../../../joist/js/JoistStrings.js';
 import { AFRICA_REGION_AND_CULTURE_ID } from '../../../../joist/js/preferences/RegionAndCulturePortrayal.js';
-import genericGameScreenIcon_png from '../../../mipmaps/africa/genericGameScreenIcon_png.js';
+import genericGameScreenIcon_svg from '../../../images/africa/genericGameScreenIcon_svg.js';
 import level1Icon_svg from '../../../images/africa/level1Icon_svg.js';
 import level2Icon_svg from '../../../images/africa/level2Icon_svg.js';
 import level3Icon_svg from '../../../images/africa/level3Icon_svg.js';
@@ -28,7 +28,7 @@ const JugglerPortrayalAfrica = new JugglerPortrayal(
   level4Icon_svg,
   level5Icon_svg,
   level6Icon_svg,
-  genericGameScreenIcon_png,
+  genericGameScreenIcon_svg,
   AFRICA_REGION_AND_CULTURE_ID
 );
 
