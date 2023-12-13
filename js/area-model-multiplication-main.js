@@ -19,7 +19,7 @@ const areaModelMultiplicationTitleStringProperty = AreaModelMultiplicationString
 
 const preferencesModel = new PreferencesModel( {
   localizationOptions: {
-    characterSets: JugglerImages.JUGGLER_PORTRAYALS
+    portrayals: JugglerImages.JUGGLER_PORTRAYALS
   }
 } );
 
