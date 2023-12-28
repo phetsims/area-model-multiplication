@@ -11,6 +11,7 @@ import GenericScreen from '../../area-model-common/js/screens/GenericScreen.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
+import soundManager from '../../tambo/js/soundManager.js';
 import AreaModelMultiplicationStrings from './AreaModelMultiplicationStrings.js';
 import GameScreen from './game/GameScreen.js';
 import JugglerImages from './game/view/JugglerImages.js';
@@ -41,4 +42,6 @@ simLauncher.launch( () => {
     new GameScreen( preferencesModel )
   ], simOptions );
   sim.start();
+
+  soundManager.setOutputLevelForCategory( 'user-interface', 0 );
 } );
