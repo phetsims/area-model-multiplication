@@ -7,28 +7,28 @@
  *
  */
 
+import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
 import JoistStrings from '../../../../joist/js/JoistStrings.js';
 import { OCEANIA_REGION_AND_CULTURE_ID } from '../../../../joist/js/preferences/RegionAndCulturePortrayal.js';
-import genericGameScreenIcon_svg from '../../../images/oceania/genericGameScreenIcon_svg.js';
-import level1Icon_svg from '../../../images/usa/level1Icon_svg.js';
-import level2Icon_svg from '../../../images/oceania/level2Icon_svg.js';
-import level3Icon_svg from '../../../images/usa/level3Icon_svg.js';
-import level4Icon_svg from '../../../images/oceania/level4Icon_svg.js';
-import level5Icon_svg from '../../../images/oceania/level5Icon_svg.js';
-import level6Icon_svg from '../../../images/usa/level6Icon_svg.js';
-import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
+import oceaniaGenericGameScreenIcon_svg from '../../../images/localized/oceaniaGenericGameScreenIcon_svg.js';
+import oceaniaLevel2Icon_svg from '../../../images/localized/oceaniaLevel2Icon_svg.js';
+import oceaniaLevel4Icon_svg from '../../../images/localized/oceaniaLevel4Icon_svg.js';
+import oceaniaLevel5Icon_svg from '../../../images/localized/oceaniaLevel5Icon_svg.js';
+import usaLevel1Icon_svg from '../../../images/localized/usaLevel1Icon_svg.js';
+import usaLevel3Icon_svg from '../../../images/localized/usaLevel3Icon_svg.js';
+import usaLevel6Icon_svg from '../../../images/localized/usaLevel6Icon_svg.js';
 
 const oceaniaString = JoistStrings.preferences.tabs.localization.regionAndCulture.portrayalSets.oceaniaStringProperty;
 
 const JugglerPortrayalOceania = new JugglerPortrayal(
   oceaniaString,
-  level1Icon_svg,
-  level2Icon_svg,
-  level3Icon_svg,
-  level4Icon_svg,
-  level5Icon_svg,
-  level6Icon_svg,
-  genericGameScreenIcon_svg,
+  usaLevel1Icon_svg,
+  oceaniaLevel2Icon_svg,
+  usaLevel3Icon_svg,
+  oceaniaLevel4Icon_svg,
+  oceaniaLevel5Icon_svg,
+  usaLevel6Icon_svg,
+  oceaniaGenericGameScreenIcon_svg,
   OCEANIA_REGION_AND_CULTURE_ID
 );
 

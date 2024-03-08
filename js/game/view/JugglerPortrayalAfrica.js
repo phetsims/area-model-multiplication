@@ -7,28 +7,28 @@
  *
  */
 
+import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
 import JoistStrings from '../../../../joist/js/JoistStrings.js';
 import { AFRICA_REGION_AND_CULTURE_ID } from '../../../../joist/js/preferences/RegionAndCulturePortrayal.js';
-import genericGameScreenIcon_svg from '../../../images/africa/genericGameScreenIcon_svg.js';
-import level1Icon_svg from '../../../images/africa/level1Icon_svg.js';
-import level2Icon_svg from '../../../images/africa/level2Icon_svg.js';
-import level3Icon_svg from '../../../images/africa/level3Icon_svg.js';
-import level4Icon_svg from '../../../images/africa/level4Icon_svg.js';
-import level5Icon_svg from '../../../images/africa/level5Icon_svg.js';
-import level6Icon_svg from '../../../images/africa/level6Icon_svg.js';
-import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
+import africaGenericGameScreenIcon_svg from '../../../images/localized/africaGenericGameScreenIcon_svg.js';
+import africaLevel1Icon_svg from '../../../images/localized/africaLevel1Icon_svg.js';
+import africaLevel2Icon_svg from '../../../images/localized/africaLevel2Icon_svg.js';
+import africaLevel3Icon_svg from '../../../images/localized/africaLevel3Icon_svg.js';
+import africaLevel4Icon_svg from '../../../images/localized/africaLevel4Icon_svg.js';
+import africaLevel5Icon_svg from '../../../images/localized/africaLevel5Icon_svg.js';
+import africaLevel6Icon_svg from '../../../images/localized/africaLevel6Icon_svg.js';
 
 const africaString = JoistStrings.preferences.tabs.localization.regionAndCulture.portrayalSets.africaStringProperty;
 
 const JugglerPortrayalAfrica = new JugglerPortrayal(
   africaString,
-  level1Icon_svg,
-  level2Icon_svg,
-  level3Icon_svg,
-  level4Icon_svg,
-  level5Icon_svg,
-  level6Icon_svg,
-  genericGameScreenIcon_svg,
+  africaLevel1Icon_svg,
+  africaLevel2Icon_svg,
+  africaLevel3Icon_svg,
+  africaLevel4Icon_svg,
+  africaLevel5Icon_svg,
+  africaLevel6Icon_svg,
+  africaGenericGameScreenIcon_svg,
   AFRICA_REGION_AND_CULTURE_ID
 );
 

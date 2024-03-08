@@ -7,28 +7,28 @@
  *
  */
 
+import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
 import JoistStrings from '../../../../joist/js/JoistStrings.js';
 import { ASIA_REGION_AND_CULTURE_ID } from '../../../../joist/js/preferences/RegionAndCulturePortrayal.js';
-import genericGameScreenIcon_svg from '../../../images/asia/genericGameScreenIcon_svg.js';
-import level1Icon_svg from '../../../images/usa/level1Icon_svg.js';
-import level2Icon_svg from '../../../images/asia/level2Icon_svg.js';
-import level3Icon_svg from '../../../images/usa/level3Icon_svg.js';
-import level4Icon_svg from '../../../images/asia/level4Icon_svg.js';
-import level5Icon_svg from '../../../images/asia/level5Icon_svg.js';
-import level6Icon_svg from '../../../images/asia/level6Icon_svg.js';
-import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
+import asiaGenericGameScreenIcon_svg from '../../../images/localized/asiaGenericGameScreenIcon_svg.js';
+import asiaLevel2Icon_svg from '../../../images/localized/asiaLevel2Icon_svg.js';
+import asiaLevel4Icon_svg from '../../../images/localized/asiaLevel4Icon_svg.js';
+import asiaLevel5Icon_svg from '../../../images/localized/asiaLevel5Icon_svg.js';
+import asiaLevel6Icon_svg from '../../../images/localized/asiaLevel6Icon_svg.js';
+import usaLevel1Icon_svg from '../../../images/localized/usaLevel1Icon_svg.js';
+import usaLevel3Icon_svg from '../../../images/localized/usaLevel3Icon_svg.js';
 
 const asiaString = JoistStrings.preferences.tabs.localization.regionAndCulture.portrayalSets.asiaStringProperty;
 
 const JugglerPortrayalAsia = new JugglerPortrayal(
   asiaString,
-  level1Icon_svg,
-  level2Icon_svg,
-  level3Icon_svg,
-  level4Icon_svg,
-  level5Icon_svg,
-  level6Icon_svg,
-  genericGameScreenIcon_svg,
+  usaLevel1Icon_svg,
+  asiaLevel2Icon_svg,
+  usaLevel3Icon_svg,
+  asiaLevel4Icon_svg,
+  asiaLevel5Icon_svg,
+  asiaLevel6Icon_svg,
+  asiaGenericGameScreenIcon_svg,
   ASIA_REGION_AND_CULTURE_ID
 );
 
