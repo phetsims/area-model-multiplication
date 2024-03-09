@@ -10,13 +10,13 @@
 import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
 import JoistStrings from '../../../../joist/js/JoistStrings.js';
 import { OCEANIA_REGION_AND_CULTURE_ID } from '../../../../joist/js/preferences/RegionAndCulturePortrayal.js';
-import oceaniaGenericGameScreenIcon_svg from '../../../images/localized/oceaniaGenericGameScreenIcon_svg.js';
-import oceaniaLevel2Icon_svg from '../../../images/localized/oceaniaLevel2Icon_svg.js';
-import oceaniaLevel4Icon_svg from '../../../images/localized/oceaniaLevel4Icon_svg.js';
-import oceaniaLevel5Icon_svg from '../../../images/localized/oceaniaLevel5Icon_svg.js';
-import usaLevel1Icon_svg from '../../../images/localized/usaLevel1Icon_svg.js';
-import usaLevel3Icon_svg from '../../../images/localized/usaLevel3Icon_svg.js';
-import usaLevel6Icon_svg from '../../../images/localized/usaLevel6Icon_svg.js';
+import oceaniaGenericGameScreenIcon_svg from '../../../images/oceania/oceaniaGenericGameScreenIcon_svg.js';
+import oceaniaLevel2Icon_svg from '../../../images/oceania/oceaniaLevel2Icon_svg.js';
+import oceaniaLevel4Icon_svg from '../../../images/oceania/oceaniaLevel4Icon_svg.js';
+import oceaniaLevel5Icon_svg from '../../../images/oceania/oceaniaLevel5Icon_svg.js';
+import usaLevel1Icon_svg from '../../../images/usa/usaLevel1Icon_svg.js';
+import usaLevel3Icon_svg from '../../../images/usa/usaLevel3Icon_svg.js';
+import usaLevel6Icon_svg from '../../../images/usa/usaLevel6Icon_svg.js';
 
 const oceaniaString = JoistStrings.preferences.tabs.localization.regionAndCulture.portrayalSets.oceaniaStringProperty;
 
