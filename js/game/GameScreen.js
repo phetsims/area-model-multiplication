@@ -10,7 +10,6 @@ import GenericGameScreen from '../../../area-model-common/js/screens/GenericGame
 import areaModelMultiplication from '../areaModelMultiplication.js';
 import AreaModelMultiplicationImages from '../AreaModelMultiplicationImages.js';
 import AreaModelMultiplicationQueryParameters from '../AreaModelMultiplicationQueryParameters.js';
-import JugglerCharacters from './view/JugglerCharacters.js';
 
 class GameScreen extends GenericGameScreen {
 
@@ -21,7 +20,14 @@ class GameScreen extends GenericGameScreen {
   constructor( preferencesModel ) {
 
     super( preferencesModel, AreaModelMultiplicationImages.gameHomeScreenIconImageProperty,
-      gameAreaModel => new JugglerCharacters( gameAreaModel ),
+      [
+        AreaModelMultiplicationImages.level1ImageProperty,
+        AreaModelMultiplicationImages.level2ImageProperty,
+        AreaModelMultiplicationImages.level3ImageProperty,
+        AreaModelMultiplicationImages.level4ImageProperty,
+        AreaModelMultiplicationImages.level5ImageProperty,
+        AreaModelMultiplicationImages.level6ImageProperty
+      ],
       AreaModelMultiplicationQueryParameters.gameLevels );
   }
 }
