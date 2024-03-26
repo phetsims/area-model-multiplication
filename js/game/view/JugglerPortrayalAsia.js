@@ -8,7 +8,7 @@
  */
 
 import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
-import asiaGenericGameScreenIcon_svg from '../../../images/asia/asiaGenericGameScreenIcon_svg.js';
+import asiaGameHomeScreenIcon_svg from '../../../images/asia/asiaGameHomeScreenIcon_svg.js';
 import asiaLevel2Icon_svg from '../../../images/asia/asiaLevel2Icon_svg.js';
 import asiaLevel4Icon_svg from '../../../images/asia/asiaLevel4Icon_svg.js';
 import asiaLevel5Icon_svg from '../../../images/asia/asiaLevel5Icon_svg.js';
@@ -24,7 +24,7 @@ const JugglerPortrayalAsia = new JugglerPortrayal(
   asiaLevel4Icon_svg,
   asiaLevel5Icon_svg,
   asiaLevel6Icon_svg,
-  asiaGenericGameScreenIcon_svg
+  asiaGameHomeScreenIcon_svg
 );
 
 export default JugglerPortrayalAsia;

@@ -8,7 +8,7 @@
  */
 
 import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
-import usaGenericGameScreenIcon_svg from '../../../images/usa/usaGenericGameScreenIcon_svg.js';
+import usaGameHomeScreenIcon_svg from '../../../images/usa/usaGameHomeScreenIcon_svg.js';
 import usaLevel1Icon_svg from '../../../images/usa/usaLevel1Icon_svg.js';
 import usaLevel2Icon_svg from '../../../images/usa/usaLevel2Icon_svg.js';
 import usaLevel3Icon_svg from '../../../images/usa/usaLevel3Icon_svg.js';
@@ -24,7 +24,7 @@ const JugglerPortrayalUSA = new JugglerPortrayal(
   usaLevel4Icon_svg,
   usaLevel5Icon_svg,
   usaLevel6Icon_svg,
-  usaGenericGameScreenIcon_svg
+  usaGameHomeScreenIcon_svg
 );
 
 export default JugglerPortrayalUSA;

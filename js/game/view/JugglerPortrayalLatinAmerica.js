@@ -8,7 +8,7 @@
  */
 
 import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
-import latinAmericaGenericGameScreenIcon_svg from '../../../images/latinAmerica/latinAmericaGenericGameScreenIcon_svg.js';
+import latinAmericaGameHomeScreenIcon_svg from '../../../images/latinAmerica/latinAmericaGameHomeScreenIcon_svg.js';
 import latinAmericaLevel1Icon_svg from '../../../images/latinAmerica/latinAmericaLevel1Icon_svg.js';
 import latinAmericaLevel2Icon_svg from '../../../images/latinAmerica/latinAmericaLevel2Icon_svg.js';
 import latinAmericaLevel3Icon_svg from '../../../images/latinAmerica/latinAmericaLevel3Icon_svg.js';
@@ -24,7 +24,7 @@ const JugglerPortrayalLatinAmerica = new JugglerPortrayal(
   latinAmericaLevel4Icon_svg,
   latinAmericaLevel5Icon_svg,
   latinAmericaLevel6Icon_svg,
-  latinAmericaGenericGameScreenIcon_svg
+  latinAmericaGameHomeScreenIcon_svg
 );
 
 export default JugglerPortrayalLatinAmerica;

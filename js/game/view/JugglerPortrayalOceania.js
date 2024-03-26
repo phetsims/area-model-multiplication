@@ -8,7 +8,7 @@
  */
 
 import JugglerPortrayal from '../../../../area-model-common/js/game/view/JugglerPortrayal.js';
-import oceaniaGenericGameScreenIcon_svg from '../../../images/oceania/oceaniaGenericGameScreenIcon_svg.js';
+import oceaniaGameHomeScreenIcon_svg from '../../../images/oceania/oceaniaGameHomeScreenIcon_svg.js';
 import oceaniaLevel2Icon_svg from '../../../images/oceania/oceaniaLevel2Icon_svg.js';
 import oceaniaLevel4Icon_svg from '../../../images/oceania/oceaniaLevel4Icon_svg.js';
 import oceaniaLevel5Icon_svg from '../../../images/oceania/oceaniaLevel5Icon_svg.js';
@@ -24,7 +24,7 @@ const JugglerPortrayalOceania = new JugglerPortrayal(
   oceaniaLevel4Icon_svg,
   oceaniaLevel5Icon_svg,
   usaLevel6Icon_svg,
-  oceaniaGenericGameScreenIcon_svg
+  oceaniaGameHomeScreenIcon_svg
 );
 
 export default JugglerPortrayalOceania;
