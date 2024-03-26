@@ -14,12 +14,11 @@ import AreaModelMultiplicationQueryParameters from '../AreaModelMultiplicationQu
 class GameScreen extends GenericGameScreen {
 
   /**
-   * @param { PreferencesModel } preferencesModel
    * @public
    */
-  constructor( preferencesModel ) {
+  constructor() {
 
-    super( preferencesModel, AreaModelMultiplicationImages.gameHomeScreenIconImageProperty,
+    super( AreaModelMultiplicationImages.gameHomeScreenIconImageProperty,
       [
         AreaModelMultiplicationImages.level1ImageProperty,
         AreaModelMultiplicationImages.level2ImageProperty,
