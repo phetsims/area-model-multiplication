@@ -6,34 +6,34 @@
 /* eslint-disable */
 import LocalizedImageProperty from '../../joist/js/i18n/LocalizedImageProperty.js';
 import areaModelMultiplication from './areaModelMultiplication.js';
-import africaGameHomeScreenIcon_svg from '../images/africa/africaGameHomeScreenIcon_svg.js';
+import africaGenericGameScreenIcon_svg from '../images/africa/africaGenericGameScreenIcon_svg.js';
 import africaLevel1Icon_svg from '../images/africa/africaLevel1Icon_svg.js';
 import africaLevel2Icon_svg from '../images/africa/africaLevel2Icon_svg.js';
 import africaLevel3Icon_svg from '../images/africa/africaLevel3Icon_svg.js';
 import africaLevel4Icon_svg from '../images/africa/africaLevel4Icon_svg.js';
 import africaLevel5Icon_svg from '../images/africa/africaLevel5Icon_svg.js';
 import africaLevel6Icon_svg from '../images/africa/africaLevel6Icon_svg.js';
-import africaModestGameHomeScreenIcon_svg from '../images/africaModest/africaModestGameHomeScreenIcon_svg.js';
+import africaModestGenericGameScreenIcon_svg from '../images/africaModest/africaModestGenericGameScreenIcon_svg.js';
 import africaModestLevel1Icon_svg from '../images/africaModest/africaModestLevel1Icon_svg.js';
 import africaModestLevel3Icon_svg from '../images/africaModest/africaModestLevel3Icon_svg.js';
 import africaModestLevel6Icon_svg from '../images/africaModest/africaModestLevel6Icon_svg.js';
-import asiaGameHomeScreenIcon_svg from '../images/asia/asiaGameHomeScreenIcon_svg.js';
+import asiaGenericGameScreenIcon_svg from '../images/asia/asiaGenericGameScreenIcon_svg.js';
 import asiaLevel2Icon_svg from '../images/asia/asiaLevel2Icon_svg.js';
 import asiaLevel4Icon_svg from '../images/asia/asiaLevel4Icon_svg.js';
 import asiaLevel5Icon_svg from '../images/asia/asiaLevel5Icon_svg.js';
 import asiaLevel6Icon_svg from '../images/asia/asiaLevel6Icon_svg.js';
-import latinAmericaGameHomeScreenIcon_svg from '../images/latinAmerica/latinAmericaGameHomeScreenIcon_svg.js';
+import latinAmericaGenericGameScreenIcon_svg from '../images/latinAmerica/latinAmericaGenericGameScreenIcon_svg.js';
 import latinAmericaLevel1Icon_svg from '../images/latinAmerica/latinAmericaLevel1Icon_svg.js';
 import latinAmericaLevel2Icon_svg from '../images/latinAmerica/latinAmericaLevel2Icon_svg.js';
 import latinAmericaLevel3Icon_svg from '../images/latinAmerica/latinAmericaLevel3Icon_svg.js';
 import latinAmericaLevel4Icon_svg from '../images/latinAmerica/latinAmericaLevel4Icon_svg.js';
 import latinAmericaLevel5Icon_svg from '../images/latinAmerica/latinAmericaLevel5Icon_svg.js';
 import latinAmericaLevel6Icon_svg from '../images/latinAmerica/latinAmericaLevel6Icon_svg.js';
-import oceaniaGameHomeScreenIcon_svg from '../images/oceania/oceaniaGameHomeScreenIcon_svg.js';
+import oceaniaGenericGameScreenIcon_svg from '../images/oceania/oceaniaGenericGameScreenIcon_svg.js';
 import oceaniaLevel2Icon_svg from '../images/oceania/oceaniaLevel2Icon_svg.js';
 import oceaniaLevel4Icon_svg from '../images/oceania/oceaniaLevel4Icon_svg.js';
 import oceaniaLevel5Icon_svg from '../images/oceania/oceaniaLevel5Icon_svg.js';
-import usaGameHomeScreenIcon_svg from '../images/usa/usaGameHomeScreenIcon_svg.js';
+import usaGenericGameScreenIcon_svg from '../images/usa/usaGenericGameScreenIcon_svg.js';
 import usaLevel1Icon_svg from '../images/usa/usaLevel1Icon_svg.js';
 import usaLevel2Icon_svg from '../images/usa/usaLevel2Icon_svg.js';
 import usaLevel3Icon_svg from '../images/usa/usaLevel3Icon_svg.js';
@@ -42,13 +42,13 @@ import usaLevel5Icon_svg from '../images/usa/usaLevel5Icon_svg.js';
 import usaLevel6Icon_svg from '../images/usa/usaLevel6Icon_svg.js';
 
 const AreaModelMultiplicationImages = {
-  gameHomeScreenIconImageProperty: new LocalizedImageProperty( 'gameHomeScreenIcon', {
-    usa: usaGameHomeScreenIcon_svg,
-    africa: africaGameHomeScreenIcon_svg,
-    africaModest: africaModestGameHomeScreenIcon_svg,
-    asia: asiaGameHomeScreenIcon_svg,
-    latinAmerica: latinAmericaGameHomeScreenIcon_svg,
-    oceania: oceaniaGameHomeScreenIcon_svg
+  genericGameScreenIconImageProperty: new LocalizedImageProperty( 'genericGameScreenIcon', {
+    usa: usaGenericGameScreenIcon_svg,
+    africa: africaGenericGameScreenIcon_svg,
+    africaModest: africaModestGenericGameScreenIcon_svg,
+    asia: asiaGenericGameScreenIcon_svg,
+    latinAmerica: latinAmericaGenericGameScreenIcon_svg,
+    oceania: oceaniaGenericGameScreenIcon_svg
   } ),
   level1ImageProperty: new LocalizedImageProperty( 'level1', {
     usa: usaLevel1Icon_svg,

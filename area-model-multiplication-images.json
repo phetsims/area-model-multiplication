@@ -1,6 +1,6 @@
 {
   "usa": {
-    "gameHomeScreenIcon" : "images/usa/usaGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/usa/usaGenericGameScreenIcon_svg.ts",
     "level1": "images/usa/usaLevel1Icon_svg.ts",
     "level2": "images/usa/usaLevel2Icon_svg.ts",
     "level3": "images/usa/usaLevel3Icon_svg.ts",
@@ -9,7 +9,7 @@
     "level6": "images/usa/usaLevel6Icon_svg.ts"
   },
   "africa": {
-    "gameHomeScreenIcon" : "images/africa/africaGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/africa/africaGenericGameScreenIcon_svg.ts",
     "level1": "images/africa/africaLevel1Icon_svg.ts",
     "level2": "images/africa/africaLevel2Icon_svg.ts",
     "level3": "images/africa/africaLevel3Icon_svg.ts",
@@ -18,7 +18,7 @@
     "level6": "images/africa/africaLevel6Icon_svg.ts"
   },
   "africaModest": {
-    "gameHomeScreenIcon" : "images/africaModest/africaModestGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/africaModest/africaModestGenericGameScreenIcon_svg.ts",
     "level1": "images/africaModest/africaModestLevel1Icon_svg.ts",
     "level2": "images/africa/africaLevel2Icon_svg.ts",
     "level3": "images/africaModest/africaModestLevel3Icon_svg.ts",
@@ -27,7 +27,7 @@
     "level6": "images/africaModest/africaModestLevel6Icon_svg.ts"
   },
   "asia": {
-    "gameHomeScreenIcon" : "images/asia/asiaGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/asia/asiaGenericGameScreenIcon_svg.ts",
     "level1": "images/usa/usaLevel1Icon_svg.ts",
     "level2": "images/asia/asiaLevel2Icon_svg.ts",
     "level3": "images/usa/usaLevel3Icon_svg.ts",
@@ -36,7 +36,7 @@
     "level6": "images/asia/asiaLevel6Icon_svg.ts"
   },
   "latinAmerica": {
-    "gameHomeScreenIcon" : "images/latinAmerica/latinAmericaGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/latinAmerica/latinAmericaGenericGameScreenIcon_svg.ts",
     "level1": "images/latinAmerica/latinAmericaLevel1Icon_svg.ts",
     "level2": "images/latinAmerica/latinAmericaLevel2Icon_svg.ts",
     "level3": "images/latinAmerica/latinAmericaLevel3Icon_svg.ts",
@@ -45,7 +45,7 @@
     "level6": "images/latinAmerica/latinAmericaLevel6Icon_svg.ts"
   },
   "oceania": {
-    "gameHomeScreenIcon" : "images/oceania/oceaniaGameHomeScreenIcon_svg.ts",
+    "genericGameScreenIcon" : "images/oceania/oceaniaGenericGameScreenIcon_svg.ts",
     "level1": "images/usa/usaLevel1Icon_svg.ts",
     "level2": "images/oceania/oceaniaLevel2Icon_svg.ts",
     "level3": "images/usa/usaLevel3Icon_svg.ts",

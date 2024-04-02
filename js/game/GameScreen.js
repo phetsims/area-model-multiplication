@@ -18,7 +18,7 @@ class GameScreen extends GenericGameScreen {
    */
   constructor() {
 
-    super( AreaModelMultiplicationImages.gameHomeScreenIconImageProperty,
+    super( AreaModelMultiplicationImages.genericGameScreenIconImageProperty,
       [
         AreaModelMultiplicationImages.level1ImageProperty,
         AreaModelMultiplicationImages.level2ImageProperty,
