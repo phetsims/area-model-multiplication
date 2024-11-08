@@ -6,7 +6,6 @@
 /* eslint-disable */
 /* @formatter:off */
 import LocalizedImageProperty from '../../joist/js/i18n/LocalizedImageProperty.js';
-import areaModelMultiplication from './areaModelMultiplication.js';
 import africaGenericGameScreenIcon_svg from '../images/africa/africaGenericGameScreenIcon_svg.js';
 import africaLevel1Icon_svg from '../images/africa/africaLevel1Icon_svg.js';
 import africaLevel2Icon_svg from '../images/africa/africaLevel2Icon_svg.js';
@@ -41,6 +40,7 @@ import usaLevel3Icon_svg from '../images/usa/usaLevel3Icon_svg.js';
 import usaLevel4Icon_svg from '../images/usa/usaLevel4Icon_svg.js';
 import usaLevel5Icon_svg from '../images/usa/usaLevel5Icon_svg.js';
 import usaLevel6Icon_svg from '../images/usa/usaLevel6Icon_svg.js';
+import areaModelMultiplication from './areaModelMultiplication.js';
 
 const AreaModelMultiplicationImages = {
   genericGameScreenIconImageProperty: new LocalizedImageProperty( 'genericGameScreenIcon', {
