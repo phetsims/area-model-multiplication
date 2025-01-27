@@ -13,7 +13,6 @@ import areaModelMultiplication from './areaModelMultiplication.js';
 
 type StringsType = {
   'area-model-multiplication': {
-    'title': string;
     'titleStringProperty': LocalizedStringProperty;
   }
 };
