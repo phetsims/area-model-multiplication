@@ -5,7 +5,7 @@
     "branch": "HEAD"
   },
   "area-model-multiplication": {
-    "sha": "ce7765aa7d55d662162f315bfa3efc35d558cacf",
+    "sha": "0731fe18dde202455897a8732b770fc56b0474c0",
     "branch": "1.3"
   },
   "assert": {
@@ -21,7 +21,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "5689b14758019825e049c39e6f5418fd8a421df8",
+    "sha": "c71548ad08e8be33e0c6d882f5e5c777ac7ad652",
     "branch": "HEAD"
   },
   "dot": {
