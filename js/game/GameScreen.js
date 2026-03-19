@@ -7,7 +7,6 @@
  */
 
 import GenericGameScreen from '../../../area-model-common/js/screens/GenericGameScreen.js';
-import areaModelMultiplication from '../areaModelMultiplication.js';
 import AreaModelMultiplicationImages from '../AreaModelMultiplicationImages.js';
 import AreaModelMultiplicationQueryParameters from '../AreaModelMultiplicationQueryParameters.js';
 
@@ -31,5 +30,4 @@ class GameScreen extends GenericGameScreen {
   }
 }
 
-areaModelMultiplication.register( 'GameScreen', GameScreen );
 export default GameScreen;

@@ -19,6 +19,4 @@ type StringsType = {
 
 const AreaModelMultiplicationStrings = getStringModule( 'AREA_MODEL_MULTIPLICATION' ) as StringsType;
 
-areaModelMultiplication.register( 'AreaModelMultiplicationStrings', AreaModelMultiplicationStrings );
-
 export default AreaModelMultiplicationStrings;
