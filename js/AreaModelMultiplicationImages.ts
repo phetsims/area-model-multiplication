@@ -101,4 +101,6 @@ const AreaModelMultiplicationImages = {
   } )
 };
 
+areaModelMultiplication.register( 'AreaModelMultiplicationImages', AreaModelMultiplicationImages );
+
 export default AreaModelMultiplicationImages;
